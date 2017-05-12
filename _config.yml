@@ -1,4 +1,24 @@
-theme: jekyll-theme-dinky
-title: github blog of eldritchjs
-description: ML + Data Science + AI Swiss Army Knife & Software Engineer within Red Hat's Big Data Group
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
 
+# Setup
+title:               eldritchjs's mutterings
+tagline:             'Notes from the journey'
+description:         'This is my github pages blog. There are many like it, but this one is mine.'
+url:                 http://eldritchjs.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Jason Schlessman
+  url:               https://twitter.com/eldritchjs
+  email:             jschless@redhat.com
+
+# Custom vars
+version:             1.0.0
+
+gems: [jekyll-paginate]
